@@ -7,7 +7,7 @@ ROLES = [None, "PC", "Professor", "Team"]
 
 def login():
     st.header("Log in")
-    role = st.selectbox("Choose your role", ROLES)
+    role = st.selectbox("Choose your role *", ROLES)
 
     if st.button("Log in"):
         st.session_state.role = role
