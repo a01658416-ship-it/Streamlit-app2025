@@ -63,11 +63,7 @@ maps = st.Page(
     title="Interactive Maps",
     icon="🌍",
 )
-maps2 = st.Page(
-    "Visualization/maps2.py",
-    title="Advanced Maps",
-    icon="📍",
-)
+
 
 # ML pages
 ml = st.Page(
