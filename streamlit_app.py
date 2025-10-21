@@ -88,7 +88,10 @@ eda = st.Page(
 # Configure pages based on role
 if role is not None:
     # Add logo and title
-    st.logo("images/horizontal_blue.png", icon_image="images/icon_blue.png")
+    st.logo(r"C:\Users\carol\OneDrive\Documents\copygithub\Streamlit-app2025\logo_main.png",
+        icon_image=r"C:\Users\carol\OneDrive\Documents\copygithub\Streamlit-app2025\logo_main.png")
+
+
     st.title("🗺️ Crime Data Analytics AI - Mexico City")
     
     # Call logout in sidebar
