@@ -87,10 +87,7 @@ eda = st.Page(
 
 # Configure pages based on role
 if role is not None:
-    # Add logo and title
-    st.logo(r"C:\Users\carol\OneDrive\Documents\copygithub\Streamlit-app2025\logo_main.png",
-        icon_image=r"C:\Users\carol\OneDrive\Documents\copygithub\Streamlit-app2025\logo_main.png")
-
+    
 
     st.title("🗺️ Crime Data Analytics AI - Mexico City")
     
