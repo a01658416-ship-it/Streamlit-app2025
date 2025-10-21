@@ -1,5 +1,8 @@
 streamlit
+plotly
 pandas
-seaborn
+numpy
+geopandas
+folium
 matplotlib
 scikit-learn
